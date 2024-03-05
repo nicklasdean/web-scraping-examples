@@ -1,3 +1,7 @@
 package com.example.scraping
 
-data class HackernewsPost(val title: String, val numberOfComments: Int);
+data class HackernewsPost(val title: String): Comparable<HackernewsPost> {
+    override fun compareTo(other: HackernewsPost): Int {
+        TODO("Not yet implemented")
+    }
+};
