@@ -15,7 +15,7 @@ fun main() {
     driver.get("https://reddit.com")
 
     scrollDown(driver)
-
+    Thread.sleep(5000)
 }
 
 fun scrollDown(driver: WebDriver) {
